@@ -3,10 +3,6 @@ package com.proyecto.rest.entity;
 public class Producto {
     public Producto() {
     }
-
-
-
-
     public Producto(Long id, String nombre, float precio, String descripcion, int categoria) {
         this.id = id;
         this.nombre = nombre;
