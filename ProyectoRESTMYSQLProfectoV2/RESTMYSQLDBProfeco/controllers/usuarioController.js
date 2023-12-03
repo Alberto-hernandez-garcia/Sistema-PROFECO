@@ -8,9 +8,10 @@ const sequelize = new Sequelize('mysql://root@localhost:3306/profeco'); // Ajust
 // Define el modelo Usuario para Sequelize
 const Usuario = sequelize.define('Usuario', {
   id: {
-    type: DataTypes.STRING,
+    type: DataTypes.INTEGER,
     allowNull: false,
     primaryKey: true,
+    autoIncrement: true
   },
   username: {
     type: DataTypes.STRING,
